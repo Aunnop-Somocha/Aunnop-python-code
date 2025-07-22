@@ -17,5 +17,8 @@ elif age >= 13 and age <= 19:
 elif age >= 20 and age <= 59:
     print("Adult")
 
+elif age < 0:
+    print("Tryagain")
+    
 else:
     print("Senior")
